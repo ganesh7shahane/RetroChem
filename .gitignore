@@ -1,3 +1,24 @@
+# --- Large datasets ---
+colab/synplan_data/
+tests/data/forest/
+tutorials/**/forest/
+
+# --- ML artifacts ---
+*.ckpt
+*.pt
+*.pkl
+*.h5
+*.npz
+
+# --- Chemistry datasets ---
+*.smi
+*.sdf
+*.zip
+
+# --- Caches ---
+__pycache__/
+.cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
